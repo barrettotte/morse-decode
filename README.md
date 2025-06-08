@@ -15,7 +15,7 @@ train a model to decode morse code signals.
 
 ```sh
 # open notebook
-jupyter lab
+jupyter notebook morse-decode.ipynb
 
 # install dependencies (ideally in venv)
 py -m pip install -r requirements.txt
