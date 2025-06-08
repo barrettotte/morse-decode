@@ -1,10 +1,22 @@
 # morse-decode
 
-An attempt at decoding morse code from WAV files
+Decode morse code signals from WAV files.
+
+I'm trying to learn digital signal processing and thought this
+would be a decent tutorial project to pursue.
+
+There's probably more I need to do to support different words per minute or extreme noise.
+But, this seems to work for trivial morse signals.
+
+In the future I want to make a deep learning project to try and see if I can
+train a model to decode morse code signals.
 
 ## Development
 
 ```sh
+# open notebook
+jupyter lab
+
 # install dependencies (ideally in venv)
 py -m pip install -r requirements.txt
 
